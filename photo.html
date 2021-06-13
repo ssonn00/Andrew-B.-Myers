@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>photo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			font-family:"Noto Sans KR", sans-serif;
+		}
+
+		.helper{
+		    display: inline-block;
+		    height: 100%;
+		    vertical-align: middle;
+	    }
+
+	    .nav{
+			margin-left: auto;
+			margin-right: auto;
+			width: 1240px;
+			margin-top: 25px;
+		}
+
+		.logo{
+			display: inline-block;
+			text-align: left;
+			font-size: 20px;
+			color: #333333;
+			text-decoration: none;
+		}
+
+		.content{
+			float: right;
+			text-align: right;
+			font-size: 15px;
+			width: 850px;
+		}
+
+		.about{
+			text-decoration: none;
+			color: #333333;
+			padding-right: 52px;
+			padding-left: 52px;
+		}
+
+		.video{
+			text-decoration: none;
+			color: #333333;
+			padding-right: 52px;
+			padding-left: 52px;
+        }
+
+		.photo{
+			text-decoration: none;
+			color: #111111;
+			padding-right: 52px;
+			padding-left: 52px;
+			font-weight: bold;
+		}
+
+		.contact{
+			text-decoration: none;
+			color: #333333;
+			padding-left: 52px;
+		}
+
+		h2{
+			display: inline block;
+			text-align: center;
+			font-size: 50px;
+			margin-top: 100px;
+			color: #111111;
+			font-weight: bold;
+		}
+
+		.color{
+        	display: inline block;
+			text-align: center;
+         	font-size: 18px;
+         	margin-top: 90px;
+         }
+
+        hr{
+        	margin-top: 42px;
+        	margin-bottom: 58px;
+        }
+
+        .color-img{
+         	width: 1260px;
+         	margin-left: auto;
+         	margin-right: auto;
+         	margin-top: 40px;
+         }
+
+        .red-back{
+        	background-image: url(https://i.postimg.cc/Bt9bmSTW/LANDING-2.png);
+        	background-position: bottom;
+        	background-repeat: no-repeat;
+        	background-size: contain;
+        	width: 100%;
+        }
+
+        .red-img{
+	        display: block;
+	        float: left;
+            text-align: center;
+	        width: 295px;
+	        height: 340px;
+	        margin-left: 10px;
+	        margin-right: 10px;
+         	margin-bottom: 20px;
+         }
+
+          .pic1{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/Kj2nyTV9/petals-1.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+
+         .pic2{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/ZR3rgHfB/pepsi2.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+
+         .pic3{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/zDCCFdb4/coke.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+
+         .pic4{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/SR1NGFWW/mailbox3.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic5{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/Gm9kFb1m/watch4final.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic6{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/13q5Dd4q/273-campagneelelclerc2502-2-1.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic7{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/5tW9gmFk/273-fresh-groceries133hero2.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic8{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/j5Zss03G/01.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic9{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/6579NPrm/0.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic10{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/6QBJTbZw/273-nydp0723ca.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic11{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/VN4yt99t/273-gxl525d68b9-9ca4-4809-93b1-54b10aa613db.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+
+         .pic12{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/5yYDDZh5/273-gxl52b483ed-bbb4-41c4-a0cd-69630af4b6c2.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic13{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/TwHZ7R4Y/273-tumblrn9t6dgvzwc1qzahnto11280.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic14{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/654G1ygF/gxxl-5633d01b-4c9c-4282.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+         .pic15{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/xCJ2SJHb/cheese2.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+
+         .pic16{
+        	width: 295px;
+        	height: 340px;
+        	background-image: url("https://i.postimg.cc/V6xcsfBZ/pretzel2.jpg");
+        	background-size: cover;
+        	background-position: center;
+        	background-repeat: no-repeat;
+         }
+         
+        .clearfix{
+	        clear: both;
+         }
+
+         .number{
+         	text-align: center;
+         	width: 610px;
+	        font-size: 15px;
+	        margin-right: auto;
+	        margin-left: auto;
+	        margin-top: 30px;
+	        margin-bottom: 50px;
+        } 
+
+        .number a{
+	        text-decoration: none;
+	        margin-right: 25px;
+	        margin-left: 25px;
+         }
+
+         .one{
+            color: #111111;
+            font-weight: bold;
+         }
+
+         .two{
+            color: #cccccc;
+         }
+
+         .three{
+            color: #cccccc;
+         }
+
+         .four{
+            color: #cccccc;
+         }
+
+         .five{
+            color: #cccccc;
+         }
+
+         .six{
+            color: #cccccc;
+         }
+
+         .footer{
+        	width: 100%;
+        	height: 110px;
+        	background-color: #111111;
+        	opacity: 0.5;
+        	margin-top: 60px;
+        }
+
+        h5{
+        	font-size: 18px;
+        	margin-bottom: 5px;
+        	padding-top: 20px;
+        }
+
+        .footer-text{
+        	font-size: 13px;
+        	font-weight: 400;
+        	opacity: 1;
+        	color: #ffffff;
+            width: 1240px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+		<a href="home.html" class="logo">Andrew B. Myers</a>
+
+	    <div class="content">
+		    <a href="about.html"class="about">ABOUT</a>
+		    <a href="video.html" class="video">VIDEO</a>
+	    	<a href="photo.html" class="photo">PHOTO</a>
+		    <a href="contact.html" class="contact">CONTACT</a>
+		</div>
+    </div>
+
+	<h2>PHOTO</h2>
+
+    <hr align="center"style="border:solid 1px #949494; width:1240px;">
+
+	<div class="color-img">
+		<a href="photowork.html" class="red-img">
+			<div class="pic1"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic2"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic3"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic4"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic5"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic6"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic7"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic8"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic9"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic10"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic11"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic12"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic13"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic14"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic15"></div>
+	    </a>
+
+	    <a href="#" class="red-img">
+			<div class="pic16"></div>
+	    </a>
+
+	    <div class="clearfix"></div>
+	    </div>
+
+	    <div class="number">
+	    	<a href="photo.html" class="one">1</a>
+	    	<a href="photo.html" class="two">2</a>
+	    	<a href="photo.html" class="three">3</a>
+	    	<a href="photo.html" class="four">4</a>
+	    	<a href="photo.html" class="five">5</a>
+	    	<a href="photo.html" class="six">6</a>
+	    </div>
+
+	<div class="footer">
+		<div class="footer-text"><h5>Andrew B. Myers</h5>Director/Photographer<br>COPYRIGHT INFORMATION GOES HERE © 2021. ALL RIGHTS RESERVED.</div>
+	</div>
+	
+</body>
+</html>

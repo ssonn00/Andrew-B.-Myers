@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			font-family:"Noto Sans KR", sans-serif;
+		}
+
+		.helper{
+		    display: inline-block;
+		    height: 100%;
+		    vertical-align: middle;
+	    }
+
+	    .nav{
+			margin-left: auto;
+			margin-right: auto;
+			width: 1240px;
+			margin-top: 25px;
+		}
+
+		.logo{
+			display: inline-block;
+			text-align: left;
+			font-size: 20px;
+			color: #333333;
+			text-decoration: none;
+		}
+
+		.content{
+			float: right;
+			text-align: right;
+			font-size: 15px;
+			width: 850px;
+		}
+
+		.about{
+			text-decoration: none;
+			color: #333333;
+			padding-right: 52px;
+			padding-left: 52px;
+		}
+
+		.video{
+			text-decoration: none;
+			color: #333333;
+			padding-right: 52px;
+			padding-left: 52px;
+		}
+
+		.photo{
+			text-decoration: none;
+			color: #333333;
+			padding-right: 52px;
+			padding-left: 52px;
+		}
+
+		.contact{
+			text-decoration: none;
+			color: #111111;
+			padding-left: 52px;
+			font-weight: bold;
+		}
+
+		h2{
+			display: inline block;
+			text-align: center;
+			font-size: 50px;
+			margin-top: 100px;
+			color: #111111;
+			font-weight: bold;
+		}
+
+		.back{	
+			margin-left: auto;
+         	margin-right: auto;
+         	text-align: center;
+         	margin-top: 60px;
+         	margin-bottom: 100px;
+			width: 1240px;
+			height: 650px;
+			background-image: url(https://i.postimg.cc/dV7cY7bY/gxl-5b037154-3ed8-4a4b-b206-244aac11000d.gif);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.all{
+			display: inline-block;
+			vertical-align: middle;
+			width: 820px;
+		}
+
+		.form{
+			display: inline-block;
+			vertical-align: middle;
+			color: #ffffff;
+			margin-top: -10px;
+		}
+
+		.form-back{
+			display: block;
+			float: left;
+			height: 650px;
+			text-align: left;
+		}
+
+		.text{
+			display: block;
+			float: right;
+			width: 295px;
+			height: 650px;
+			margin-left: 100px;
+			text-align: left;
+		}
+
+		.profile{
+			display: inline-block;
+			vertical-align: middle;
+			color: #333333;
+		}
+
+		h3{
+			color: #ffffff;
+			font-size: 20px;
+			margin-bottom: 5px;
+			text-align: left;
+		}
+
+		h4{
+			color: #ffffff;
+			font-size: 20px;
+			margin-bottom: 10px;
+			text-align: left;
+		}
+
+		.mov{
+			color: #CCCCCC;
+			font-size: 15px;
+			margin-bottom: 25px;
+			margin-top: -20px;
+			font-weight: 300;
+		}
+
+		.pho{
+			color: #CCCCCC;
+			font-size: 15px;
+			margin-bottom: 25px;
+			font-weight: 300;
+		}
+
+		.ag{
+			color: #CCCCCC;
+			font-size: 15px;
+			margin-bottom: 25px;
+			font-weight: 300;
+		}
+
+		.li{
+			color: #CCCCCC;
+			font-size: 15px;
+			font-weight: 300;
+		}
+
+		.login-form {
+            background-color: #ffffff;
+            width: 300px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;          
+        }
+
+        .text-field {
+        	font-size: 10px;
+        	color: #B2B2B2;
+        	width: 400px;
+        	margin-bottom: 20px;
+        	padding: 10px;
+        	opacity: 0.5;
+        }
+
+        .text-field:hover {
+        	font-size: 10px;
+        	color: #B2B2B2;
+        	width: 400px;
+        	margin-bottom: 20px;
+        	padding: 10px;
+        	opacity: 1;
+        }
+
+
+        .Message-field{
+        	font-size: 10px;
+        	color: #B2B2B2;
+        	width: 400px;
+        	height: 120px;
+        	margin-bottom: 20px;
+        	padding: 10px;
+        	opacity: 0.5;
+        }
+
+        .Message-field:hover {
+        	font-size: 10px;
+        	color: #B2B2B2;
+        	width: 400px;
+        	height: 120px;
+        	margin-bottom: 20px;
+        	padding: 10px;
+        	opacity: 1;
+        }
+
+        .submit-btn {
+        	font-size: 13px;
+        	color: #333333;
+            width: 150px;
+            padding: 10px;
+            border: 10px;
+            opacity:0.5;
+        }
+
+        .submit-btn:hover {
+        	font-size: 13px;
+        	color: #111111;
+            width: 150px;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #ffffff;
+            border: 10px;
+            opacity:1;
+        }
+
+        .submit {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .submit a {
+            font-size: 12px;
+            color: #9B9B9B;
+        }
+
+        .footer{
+        	width: 100%;
+        	height: 110px;
+        	opacity: 0.5;
+        	margin-top: 80px;
+        	text-align: left;
+        }
+
+        h5{
+        	font-size: 18px;
+        	margin-bottom: 5px;
+        	padding-top: 20px;
+        }
+
+        .footer-text{
+        	font-size: 13px;
+        	font-weight: 400;
+        	opacity: 1;
+        	color: #333333;
+            width: 1240px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+		<a href="home.html" class="logo">Andrew B. Myers</a>
+
+	    <div class="content">
+		    <a href="about.html"class="about">ABOUT</a>
+		    <a href="video.html" class="video">VIDEO</a>
+	    	<a href="photo.html" class="photo">PHOTO</a>
+		    <a href="contact.html" class="contact">CONTACT</a>
+		</div>
+    </div>
+
+	<h2>CONTACT</h2>
+
+    <hr align="center"style="border:solid 1px #949494; width:1240px;">
+
+	<div class="back">
+		<div class="all">
+		  <div class="form-back">
+	        <div class="helper"></div><div class="form">
+	        	<h4>EMAIL</h4>
+                <form>
+                     <input type="text" name="name" class="text-field" placeholder="Name*"><br>
+                     <input type="text" name="email" class="text-field" placeholder="Email*"><br>
+                     <input type="text" name="subject" class="text-field" placeholder="Subject"><br>
+                     <input type="text" name="message" class="Message-field" placeholder="Message"><br>
+                     <input type="submit" value="submit" class="submit-btn">
+                </form>
+          </div>
+	    <div class="text">
+	    	<div class="helper"></div><div class="profile">
+	    	    <div class="mov"><h3>Moving Image</h3>NEW YORK CITY<br>116 West Houston Street, 4th Floor<br>New York, New York 10012<br>Ph. +1 917 351 0520</div>
+
+	    	    <div class="pho"><h3>Photo</h3>NEW YORK CITY<br>217 Centre Street, FL7<br>New York, NY 10013<br>Ph. +1 212.279.2252</div>
+
+	    	    <div class="ag"><h3>Agence</h3>PARIS<br>14 Rue du Chevalier de la Barre<br>75018 Paris, France<br>+33 (0)983382874</div>
+
+	    	    <div class="li"><h3>Licensing Partner</h3>US: +1 212.356.0099<br>GER: +49 89.260.247.00<br>FRA: +33 01 42 88 09 93<br>AUS: +61 2 9166 6913</div>
+	    	</div>
+        </div>
+	    </div>
+	</div>
+
+	<div class="footer">
+		<div class="footer-text"><h5>Andrew B. Myers</h5>Director/Photographer<br>COPYRIGHT INFORMATION GOES HERE © 2021. ALL RIGHTS RESERVED.</div>
+	</div>    
+	
+</body>
+</html>
